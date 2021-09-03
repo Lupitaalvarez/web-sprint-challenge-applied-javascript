@@ -65,7 +65,20 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+
+- Document Object Model or DOM is when the browser builds a model for how the page should look and act using JavaScript. It is an object containing every element in order on the page. The DOM is built as a data structure where parent elements have nested children elements and can be traced back to an exact element that you want to access.
+
 2. What is an event?
+
+- any and every user interaction with a site is an event (pressing a key on the keyboard, scrolling the page), and the browser can detect all of them, this is known as a 'trigger'.
+
 3. What is an event listener?
+
+- There are a lot of events that an element can listen for, when one of those events happens on that element, we can do something about it. The tracking process and subsequent action taken is called an event listener. We put an event listener on an element and give it a callback. When that event is triggered on the element, the callback is run.
+
 4. Why would we convert a NodeList into an Array?
+- to be able to access every item in the array,
+
 5. What is a component?
+
+- A component is made of several parts (HTML, CSS, or JavaScript) and they are brought together for reuse in a website or application. JavaScript is used to consume the data and output the content into the DOM. JavaScript's involvement in components is the glue that ties everything together. We can use Javascript to consume the HTML and return a component version of it
