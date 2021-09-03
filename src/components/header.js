@@ -21,7 +21,7 @@ const Header = (title, date, temp) => {
   spanTemp.classList.add('temp');
 
   headerTitle.textContent = title;
-  spanDate.textContent = date;
+  spanDate.textContent = date, "Sep";
   spanTemp.textContent = temp;
 
   headerDiv.appendChild(spanDate);
@@ -40,7 +40,7 @@ const headerAppender = (selector) => {
   //
   const newHeader = Header();
   document.querySelector(selector).appendChild(newHeader);
-  newHeader.appendChild(Header('Lambda Times'))
+  newHeader.appendChild(Header('Lambda Times', 'September 3, 2021', '88°F'))
 }
 
 export { Header, headerAppender }
